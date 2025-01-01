@@ -1,11 +1,11 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #121212;
     margin: 0;
     padding: 0;
 }
 
-.profile-container {
+profile-container {
     width: 80%;
     margin: 20px auto;
     background-color: #fff;
@@ -20,60 +20,51 @@ body {
     margin-bottom: 20px;
 }
 
-.profile-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.profile-info h1 {
+.player-info h1 {
     font-size: 2em;
     margin: 0;
 }
 
-.profile-info p {
-    font-size: 1.1em;
-    color: #555;
-}
-
-.tabs ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-.tabs li {
-    margin-right: 20px;
-}
-
-.tabs a {
-    text-decoration: none;
-    color: #0073e6;
+.team-name {
     font-size: 1.2em;
+    color: #0073e6;
 }
 
-.tabs a:hover {
-    text-decoration: underline;
+.profile-image-container {
+    margin-left: 20px;
 }
 
-.content section {
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile-details {
     margin-top: 20px;
 }
 
-section h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-section p {
-    font-size: 1em;
-    color: #333;
+table, td {
+    border: 1px solid #ddd;
 }
 
-section ul {
-    list-style-type: disc;
-    padding-left: 20px;
+td {
+    padding: 10px;
 }
 
+.label {
+    font-weight: bold;
+}
+
+td:first-child {
+    width: 30%;
+}
+
+td:last-child {
+    width: 70%;
+}
